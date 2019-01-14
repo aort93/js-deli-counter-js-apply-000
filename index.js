@@ -24,9 +24,14 @@ function currentLine(line) {
     return 'The line is currently empty.';
   }
 
+  //create an array to hold the values and position of a person on line
+  var newArr = [];
+  
   for (var i = 0; i < line.length; i++) {
-    var name = line[i];
+    var person = line[i];
     var position = i + 1;
+    newArr.push()
   }
-  return `The line is currently on: ${numbersAndNames.join(', ')}`;
+  
+  return `The line is currently on: ${newArr.join(', ')}`;
 }
