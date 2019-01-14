@@ -11,7 +11,7 @@ function nowServing(line) {
   //will take in our current line array and returns first person in line and removes
   //them from the array
 
-  if (line.length === 0) {
+  if (line.length === 0) {  //when line is empty
     return 'There is nobody waiting to be served!';
   }
 
