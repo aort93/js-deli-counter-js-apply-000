@@ -32,7 +32,7 @@ function currentLine(line) {
     //them a position and add it the the newArr
     var person = line[i];
     var position = i + 1;
-    newArr.push(`${position}. ${name}`);
+    newArr.push(`${position}. ${person}`);
   }
 
   return `The line is currently: ${newArr.join(', ')}`;
