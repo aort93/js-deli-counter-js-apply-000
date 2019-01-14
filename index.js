@@ -26,12 +26,12 @@ function currentLine(line) {
 
   //create an array to hold the values and position of a person on line
   var newArr = [];
-  
+
   for (var i = 0; i < line.length; i++) {
     var person = line[i];
     var position = i + 1;
-    newArr.push()
+    newArr.push(`${position}. ${name}`);
   }
-  
+
   return `The line is currently on: ${newArr.join(', ')}`;
 }
