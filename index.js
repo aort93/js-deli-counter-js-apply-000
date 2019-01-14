@@ -1,6 +1,7 @@
 //katzDeliLine = [];
 //examples:
 //takeANumber(katzDeliLine, 'Alonso')  -> returns "Welcome, Alonso. You are number 1 in line."
+//nowServing(katzDeliLine)  -> returns 'Currently serving Alonso'
 
 function takeANumber(line, name) {
   //takes in a line array and a name to input into the end of the array
@@ -17,7 +18,7 @@ function nowServing(line) {
     return 'There is nobody waiting to be served!';
   }
 
-  return 'Currently serving ' + line.shift(1) +'.';
+  return 'Currently serving ' + line.shift() +'.';
 }
 
 function currentLine(line) {
