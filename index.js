@@ -35,5 +35,5 @@ function currentLine(line) {
     newArr.push(`${position}. ${name}`);
   }
 
-  return `The line is currently on: ${newArr.join(', ')}`;
+  return `The line is currently: ${newArr.join(', ')}`;
 }
