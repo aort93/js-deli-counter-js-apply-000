@@ -2,12 +2,14 @@
 //examples:
 //takeANumber(katzDeliLine, 'Alonso')  -> returns "Welcome, Alonso. You are number 1 in line."
 //nowServing(katzDeliLine)  -> returns 'Currently serving Alonso. Alonso is rmeoved from line.'
+var ticket = 0;
 
-function takeANumber(line, name) {
+function takeANumber(line) {
   //takes in a line array and a name to input into the end of the array
-  line.push(name);
+  var newNum = ticket++;
+  line.push(ticket);
 
-  return "Welcome, " + name + '. You are number ' + line.length + ' in line.'
+  return "Welcome, You are number " + newNum;
 }
 
 function nowServing(line) {
