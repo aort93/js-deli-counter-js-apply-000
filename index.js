@@ -28,5 +28,5 @@ function currentLine(line) {
     var name = line[i];
     var position = i + 1;
   }
-  return `The line is currently on: ${numbersAndNames.join(', ')}`
+  return `The line is currently on: ${numbersAndNames.join(', ')}`;
 }
