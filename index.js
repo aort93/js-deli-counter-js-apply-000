@@ -12,6 +12,6 @@ function nowServing(line) {
   //them from the array
 
   if (line.length === 0) {
-    return 'There is nobody to be served';
+    return 'There is nobody waiting to be served!';
   }
 }
