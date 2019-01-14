@@ -1,7 +1,7 @@
 //katzDeliLine = [];
 //examples:
 //takeANumber(katzDeliLine, 'Alonso')  -> returns "Welcome, Alonso. You are number 1 in line."
-//nowServing(katzDeliLine)  -> returns 'Currently serving Alonso'
+//nowServing(katzDeliLine)  -> returns 'Currently serving Alonso. Alonso is rmeoved from line.'
 
 function takeANumber(line, name) {
   //takes in a line array and a name to input into the end of the array
