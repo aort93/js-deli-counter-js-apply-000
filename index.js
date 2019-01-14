@@ -28,6 +28,8 @@ function currentLine(line) {
   var newArr = [];
 
   for (var i = 0; i < line.length; i++) {
+    //Iterate through our line array to access all the people in line and assign
+    //them a position and add it the the newArr
     var person = line[i];
     var position = i + 1;
     newArr.push(`${position}. ${name}`);
