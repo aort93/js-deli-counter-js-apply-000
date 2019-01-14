@@ -6,3 +6,12 @@ function takeANumber(line, name) {
 
   return "Welcome, " + name + '. You are number ' + line.length + ' in line.'
 }
+
+function nowServing(line) {
+  //will take in our current line array and returns first person in line and removes
+  //them from the array
+
+  if (line.length === 0) {
+    return 'There is nobody to be served';
+  }
+}
